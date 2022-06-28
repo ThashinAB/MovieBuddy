@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieDetails"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/editText_movie_details_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editText_movie_details_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="20dp"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editText_movie_details_director"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="20dp"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editText_movie_details_actors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="15dp"
+        android:importantForAutofill="no" />
+
+
+    <EditText
+        android:id="@+id/editText_movie_details_rating"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/editText_movie_details_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="20dp"
+        android:autofillHints="no" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="493dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:numStars="10"
+        android:scaleX="0.5"
+        android:scaleY="0.5" />
+
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/update_button"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>

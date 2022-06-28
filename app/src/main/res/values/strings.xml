@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="register_movie_button">Register Movie</string>
+    <string name="display_movies_button">Display Movies</string>
+    <string name="favourites_button">Favourites</string>
+    <string name="edit_movies_button">Edit Movies</string>
+    <string name="search_button">Search</string>
+    <string name="ratings_button">Ratings</string>
+    <string name="save_button">Save</string>
+    <string name="add_to_favourites">Add to Favourites</string>
+    <string name="update_button">Update</string>
+    <string name="lookup_button">Look Up</string>
+    <string name="find_movie_button">Find Movie</string>
+
+
+</resources>

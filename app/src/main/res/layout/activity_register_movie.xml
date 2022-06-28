@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterMovie"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg2"
+    >
+
+    <TextView
+        android:id="@+id/textView_addMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD A MOVIE"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-medium"
+        />
+
+    <EditText
+        android:id="@+id/editText_movie_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="366dp"
+        android:hint="Title"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/editText_movie_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="279dp"
+        android:hint="Year"
+        android:maxLength="4"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/editText_movie_director"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="111dp"
+        android:hint="Director"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/editText_movie_actors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="200dp"
+        android:hint="Actors/Actresses"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/editText_movie_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="443dp"
+        android:hint="Rating(1-10)"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/editText_movie_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="534dp"
+        android:hint="Review"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_button" />
+
+</LinearLayout>
